@@ -2,6 +2,8 @@
 
 ![hacktoberfestlogo](https://user-images.githubusercontent.com/67066785/135657287-b7521201-ff27-4450-92c7-4a6411bd9f2d.png)
 
+[Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/)
+
 This repo is used for HacktoberFest-2021. Write programs in your preferred languages!
 
 ## How to contribute? :corn:
