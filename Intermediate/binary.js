@@ -9,8 +9,8 @@ let recursiveFunction = function (arr, x, start, end) {
   else return recursiveFunction(arr, x, mid + 1, end);
 };
 
-let arr = [1, 3, 5, 7, 8, 9];
-let x = 5;
+let arr = [ 2 ,4 ,8 ,9 ,1 ,3 ,6];
+let x = 3;
 
 if (recursiveFunction(arr, x, 0, arr.length - 1))
   document.write("Element found!<br>");
