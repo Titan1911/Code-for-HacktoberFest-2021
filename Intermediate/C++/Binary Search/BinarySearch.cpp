@@ -1,30 +1,33 @@
-#include<iostream>
-using namespace std;
+// Time Complexity: - O(N)
 
+#include<bits/stdc++.h>
+using namespace std;
 
 int main()
 {
-    int arr[] = {2, 4, 8, 9, 1, 3, 6};
-    int s=0, e= sizeof(arr)/sizeof(arr[0])-1;
-    int key = 3;
-    while(s<e)
+    ios_base::sync_with_stdio(false);   cin.tie(NULL);    // For fast input output
+
+    int a[] = {2, 4, 8, 9, 1, 3, 6};
+    int element_find=3;
+    sort(a,a+n);
+    int i,ans=-1;
+    int l=0,r=n-1;
+
+    while(l<r)
     {
-        int mid = (s+e)/2;
-        if(arr[mid]==key)
+        int mid= (l+r)/2;
+        if(a[mid]>=element_find)
         {
-            cout<<"Position is "<<mid;
-            return 0;
-        }
-        else if(arr[mid]>key){
-            e = mid - 1;
+            r=mid;
         }
         else
         {
-            s = mid + 1;
+            l=mid+1;
         }
-
     }
-    cout<<"Element not Present";
-    return 0;
-
+    if(a[l]==element_find)
+    {
+        ans=l+1;
+    } 
+    cout<<ans;
 }
