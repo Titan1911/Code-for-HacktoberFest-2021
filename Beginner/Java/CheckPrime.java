@@ -13,8 +13,8 @@ public class CheckPrime {
     }
 
     /*
-     * Take a number as input and Returns true if the given number is prime or false
-     * if not
+     * Takes a number as input and Returns true if the given number is prime or
+     * false if not
      */
     private static boolean isPrime(int number) {
         for (int i = 2; i <= Math.sqrt(number); i++)
