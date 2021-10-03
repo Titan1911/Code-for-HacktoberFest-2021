@@ -5,3 +5,4 @@ import random
 
 randomNumber = random.randint(1,100)
 # A random number between 1 and 100
+print(randomNumber)
