@@ -1,0 +1,26 @@
+//dt-05
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int n;
+  cout<<"Enter a Number: ";
+  cin>>n;
+  cout<<"\n";
+  if(n<1)
+  {
+  	cout<<"Only Natural Numbers Accepted";
+  	return 0;
+  }
+  for(int i=2;i<n/2;i++)
+  {
+    if(n%i==0)
+    {
+      cout<<"Not a Prime Number";
+      return 0;
+    }
+  }
+  cout<<"Prime Number";
+  return 0;
+ }
