@@ -30,6 +30,7 @@ There are 3 types of problems in this repo:
 - Second highest number in 4 3 1 5 2
 - Celebrity problem
 - Binary search for 3 in 2 4 8 9 1 3 6 
+- Substring Checker 
 
 ### Advanced: :star:
 - Reverse a linked list
